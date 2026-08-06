@@ -12,6 +12,8 @@ https://github.com/tradplus/TradPlusAdSDK-SPM-AdMob.git
 .package(url: "https://github.com/tradplus/TradPlusAdSDK-SPM-AdMob.git", exact: "15.12.0")
 ```
 
+Requires iOS 13.0 or later.
+
 Third-party dependency: Google Mobile Ads SDK `13.6.0`.
 
 ## Notes
