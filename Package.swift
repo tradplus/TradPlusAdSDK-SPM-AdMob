@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.17.0")
+            .exact("15.18.0")
         ),
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPAdMobAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-AdMob/releases/download/15.17.0/TPAdMobAdapter-15.17.0.xcframework.zip",
-            checksum: "0c0e3c550bee830ae29a99d32970773ce38244ceeea9a8e541cbaaaea60ddacd"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-AdMob/releases/download/15.18.0/TPAdMobAdapter-15.18.0.xcframework.zip",
+            checksum: "f22f33ce80f59c153d6d36ba4009d87c261e5371e1abae5a28a0a78e44ab7b8b"
         ),
     ]
 )
